@@ -108,27 +108,6 @@ export const themeSettings = (mode) => {
               default: tokensDark.grey[0],
               alt: tokensDark.grey[50],
             },
-      // ...(mode === 'dark'
-      //   ? {
-      //       // palette values for dark mode
-      //       primary: {
-      //         ...tokensDark.primary,
-      //         main: tokensDark.primary[400],
-      //         light: tokensDark.primary[400],
-      //       },
-      //       secondary: {
-      //         ...tokensDark.secondary,
-      //         main: tokensDark.secondary[300],
-      //       },
-      //       neutral: {
-      //         ...tokensDark.grey,
-      //         main: tokensDark.grey[500],
-      //       },
-      //       background: {
-      //         default: tokensDark.primary[600],
-      //         alt: tokensDark.primary[500],
-      //       },
-      //     }
       //   : {
       //       // palette values for light mode
       //       primary: {
