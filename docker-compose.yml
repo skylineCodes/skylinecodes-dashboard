@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: skyline-dashboard
+    image: skyline-dashboard-image
+    build: 
+      context: .
+    ports:
+      - 8000:80
