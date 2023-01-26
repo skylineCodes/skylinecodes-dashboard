@@ -107,7 +107,7 @@ export const themeSettings = (mode) => {
           : {
               default: tokensDark.grey[0],
               alt: tokensDark.grey[50],
-            },
+            }
     },
     typography: {
       fontFamily: ['Inter', 'sans-serif'].join(','),
