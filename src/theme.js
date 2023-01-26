@@ -108,13 +108,6 @@ export const themeSettings = (mode) => {
               default: tokensDark.grey[0],
               alt: tokensDark.grey[50],
             },
-      //   : {
-      //       // palette values for light mode
-      //       primary: {
-      //         ...tokensLight.primary,
-      //         main: tokensDark.grey[50],
-      //         light: tokensDark.grey[100],
-      //       },
     },
     typography: {
       fontFamily: ['Inter', 'sans-serif'].join(','),
