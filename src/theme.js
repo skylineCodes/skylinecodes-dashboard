@@ -115,20 +115,6 @@ export const themeSettings = (mode) => {
       //         main: tokensDark.grey[50],
       //         light: tokensDark.grey[100],
       //       },
-      //       secondary: {
-      //         ...tokensLight.secondary,
-      //         main: tokensDark.secondary[600],
-      //         light: tokensDark.secondary[700],
-      //       },
-      //       neutral: {
-      //         ...tokensLight.grey,
-      //         main: tokensDark.grey[500],
-      //       },
-      //       background: {
-      //         default: tokensDark.grey[0],
-      //         alt: tokensDark.grey[50],
-      //       },
-      //     }),
     },
     typography: {
       fontFamily: ['Inter', 'sans-serif'].join(','),
