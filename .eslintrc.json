@@ -3,8 +3,10 @@
         "react",
         "react-hooks"
     ],
+    "parser": "@babel/eslint-parser",
     "parserOptions": {
-        "ecmaVersion": 6,
+        "ecmaVersion": 8,
+        "requireConfig": false,
         "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true
